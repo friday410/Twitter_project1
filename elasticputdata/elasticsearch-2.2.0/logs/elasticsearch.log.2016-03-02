@@ -1,0 +1,17 @@
+[2016-03-02 18:49:23,496][INFO ][node                     ] [The Profile] version[2.2.0], pid[3063], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-03-02 18:49:23,498][INFO ][node                     ] [The Profile] initializing ...
+[2016-03-02 18:49:24,065][INFO ][plugins                  ] [The Profile] modules [lang-groovy, lang-expression], plugins [], sites []
+[2016-03-02 18:49:24,096][INFO ][env                      ] [The Profile] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [142.9gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-03-02 18:49:24,096][INFO ][env                      ] [The Profile] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-03-02 18:49:26,297][INFO ][node                     ] [The Profile] initialized
+[2016-03-02 18:49:26,298][INFO ][node                     ] [The Profile] starting ...
+[2016-03-02 18:49:26,378][INFO ][transport                ] [The Profile] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}, {[fe80::1]:9300}
+[2016-03-02 18:49:26,386][INFO ][discovery                ] [The Profile] elasticsearch/d-2z3rtWRu2J2DvUjGBJPQ
+[2016-03-02 18:49:29,419][INFO ][cluster.service          ] [The Profile] new_master {The Profile}{d-2z3rtWRu2J2DvUjGBJPQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-02 18:49:29,429][INFO ][http                     ] [The Profile] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}, {[fe80::1]:9200}
+[2016-03-02 18:49:29,430][INFO ][node                     ] [The Profile] started
+[2016-03-02 18:49:29,489][INFO ][gateway                  ] [The Profile] recovered [1] indices into cluster_state
+[2016-03-02 18:49:29,950][INFO ][cluster.routing.allocation] [The Profile] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][2]] ...]).
+[2016-03-02 18:50:03,388][INFO ][cluster.metadata         ] [The Profile] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-03-02 18:50:03,485][INFO ][cluster.metadata         ] [The Profile] [test-index] create_mapping [test-type]
+[2016-03-02 18:50:03,489][INFO ][cluster.routing.allocation] [The Profile] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).

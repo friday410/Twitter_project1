@@ -1,0 +1,22 @@
+[2016-02-29 13:02:28,424][INFO ][node                     ] [Warrior Woman] version[2.2.0], pid[45638], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-02-29 13:02:28,427][INFO ][node                     ] [Warrior Woman] initializing ...
+[2016-02-29 13:02:29,142][INFO ][plugins                  ] [Warrior Woman] modules [lang-groovy, lang-expression], plugins [], sites []
+[2016-02-29 13:02:29,179][INFO ][env                      ] [Warrior Woman] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [140.9gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-02-29 13:02:29,179][INFO ][env                      ] [Warrior Woman] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-02-29 13:02:31,698][INFO ][node                     ] [Warrior Woman] initialized
+[2016-02-29 13:02:31,699][INFO ][node                     ] [Warrior Woman] starting ...
+[2016-02-29 13:02:31,854][INFO ][transport                ] [Warrior Woman] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}, {[fe80::1]:9301}
+[2016-02-29 13:02:31,953][INFO ][discovery                ] [Warrior Woman] elasticsearch/3M1UVAhNSpKAwlOva_CqkQ
+[2016-02-29 13:02:35,170][INFO ][cluster.service          ] [Warrior Woman] detected_master {Adam X}{RDUjKvZHTIWcliB872ufKg}{127.0.0.1}{127.0.0.1:9300}, added {{Adam X}{RDUjKvZHTIWcliB872ufKg}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-receive(from master [{Adam X}{RDUjKvZHTIWcliB872ufKg}{127.0.0.1}{127.0.0.1:9300}])
+[2016-02-29 13:02:35,259][INFO ][http                     ] [Warrior Woman] publish_address {127.0.0.1:9201}, bound_addresses {127.0.0.1:9201}, {[::1]:9201}, {[fe80::1]:9201}
+[2016-02-29 13:02:35,259][INFO ][node                     ] [Warrior Woman] started
+[2016-02-29 14:47:58,580][INFO ][discovery.zen            ] [Warrior Woman] master_left [{Adam X}{RDUjKvZHTIWcliB872ufKg}{127.0.0.1}{127.0.0.1:9300}], reason [shut_down]
+[2016-02-29 14:47:58,601][WARN ][discovery.zen            ] [Warrior Woman] master left (reason = shut_down), current nodes: {{Warrior Woman}{3M1UVAhNSpKAwlOva_CqkQ}{127.0.0.1}{127.0.0.1:9301},}
+[2016-02-29 14:47:58,608][INFO ][cluster.service          ] [Warrior Woman] removed {{Adam X}{RDUjKvZHTIWcliB872ufKg}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-master_failed ({Adam X}{RDUjKvZHTIWcliB872ufKg}{127.0.0.1}{127.0.0.1:9300})
+[2016-02-29 14:48:01,678][INFO ][cluster.routing.allocation] [Warrior Woman] Cluster health status changed from [GREEN] to [YELLOW] (reason: [nodes joined]).
+[2016-02-29 14:48:01,678][INFO ][cluster.service          ] [Warrior Woman] new_master {Warrior Woman}{3M1UVAhNSpKAwlOva_CqkQ}{127.0.0.1}{127.0.0.1:9301}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-02-29 14:48:01,680][INFO ][cluster.routing          ] [Warrior Woman] delaying allocation for [5] unassigned shards, next check in [1m]
+[2016-02-29 15:02:52,821][INFO ][node                     ] [Warrior Woman] stopping ...
+[2016-02-29 15:02:52,908][INFO ][node                     ] [Warrior Woman] stopped
+[2016-02-29 15:02:52,909][INFO ][node                     ] [Warrior Woman] closing ...
+[2016-02-29 15:02:52,919][INFO ][node                     ] [Warrior Woman] closed

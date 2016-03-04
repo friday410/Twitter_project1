@@ -1,0 +1,306 @@
+[2016-02-26 16:03:02,909][INFO ][node                     ] [Perun] version[2.2.0], pid[40201], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-02-26 16:03:02,910][INFO ][node                     ] [Perun] initializing ...
+[2016-02-26 16:03:03,391][INFO ][plugins                  ] [Perun] modules [lang-groovy, lang-expression], plugins [], sites []
+[2016-02-26 16:03:03,417][INFO ][env                      ] [Perun] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [167.8gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-02-26 16:03:03,417][INFO ][env                      ] [Perun] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-02-26 16:03:05,497][INFO ][node                     ] [Perun] initialized
+[2016-02-26 16:03:05,497][INFO ][node                     ] [Perun] starting ...
+[2016-02-26 16:03:05,588][INFO ][transport                ] [Perun] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}, {[fe80::1]:9300}
+[2016-02-26 16:03:05,596][INFO ][discovery                ] [Perun] elasticsearch/34QvlEy0T8SnurX27ddb6Q
+[2016-02-26 16:03:08,630][INFO ][cluster.service          ] [Perun] new_master {Perun}{34QvlEy0T8SnurX27ddb6Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-02-26 16:03:08,641][INFO ][http                     ] [Perun] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}, {[fe80::1]:9200}
+[2016-02-26 16:03:08,641][INFO ][node                     ] [Perun] started
+[2016-02-26 16:03:08,674][INFO ][gateway                  ] [Perun] recovered [0] indices into cluster_state
+[2016-02-26 16:03:52,172][INFO ][cluster.metadata         ] [Perun] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:03:52,476][INFO ][cluster.routing.allocation] [Perun] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 16:04:27,468][INFO ][rest.suppressed          ] /test-index Params: {index=test-index}
+[test-index] IndexAlreadyExistsException[already exists]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:138)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-02-26 16:05:04,441][INFO ][rest.suppressed          ] /test-index Params: {index=test-index}
+[test-index] IndexAlreadyExistsException[already exists]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:138)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-02-26 16:05:27,267][INFO ][node                     ] [Perun] stopping ...
+[2016-02-26 16:05:27,291][INFO ][node                     ] [Perun] stopped
+[2016-02-26 16:05:27,292][INFO ][node                     ] [Perun] closing ...
+[2016-02-26 16:05:27,297][INFO ][node                     ] [Perun] closed
+[2016-02-26 16:05:39,486][INFO ][node                     ] [Ecstasy] version[2.2.0], pid[40226], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-02-26 16:05:39,486][INFO ][node                     ] [Ecstasy] initializing ...
+[2016-02-26 16:05:40,007][INFO ][plugins                  ] [Ecstasy] modules [lang-groovy, lang-expression], plugins [], sites []
+[2016-02-26 16:05:40,029][INFO ][env                      ] [Ecstasy] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [167.8gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-02-26 16:05:40,030][INFO ][env                      ] [Ecstasy] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-02-26 16:05:41,646][INFO ][node                     ] [Ecstasy] initialized
+[2016-02-26 16:05:41,646][INFO ][node                     ] [Ecstasy] starting ...
+[2016-02-26 16:05:41,716][INFO ][transport                ] [Ecstasy] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}, {[fe80::1]:9300}
+[2016-02-26 16:05:41,723][INFO ][discovery                ] [Ecstasy] elasticsearch/TU9U9OiOT9GROLUm5oD7cw
+[2016-02-26 16:05:44,758][INFO ][cluster.service          ] [Ecstasy] new_master {Ecstasy}{TU9U9OiOT9GROLUm5oD7cw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-02-26 16:05:44,768][INFO ][http                     ] [Ecstasy] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}, {[fe80::1]:9200}
+[2016-02-26 16:05:44,769][INFO ][node                     ] [Ecstasy] started
+[2016-02-26 16:05:44,843][INFO ][gateway                  ] [Ecstasy] recovered [1] indices into cluster_state
+[2016-02-26 16:05:45,172][INFO ][cluster.routing.allocation] [Ecstasy] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 16:07:29,309][INFO ][rest.suppressed          ] /test-index Params: {index=test-index}
+[test-index] IndexAlreadyExistsException[already exists]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:138)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-02-26 16:08:09,193][INFO ][node                     ] [Ecstasy] stopping ...
+[2016-02-26 16:08:09,223][INFO ][node                     ] [Ecstasy] stopped
+[2016-02-26 16:08:09,223][INFO ][node                     ] [Ecstasy] closing ...
+[2016-02-26 16:08:09,235][INFO ][node                     ] [Ecstasy] closed
+[2016-02-26 16:08:14,968][INFO ][node                     ] [Damballah] version[2.2.0], pid[40242], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-02-26 16:08:14,968][INFO ][node                     ] [Damballah] initializing ...
+[2016-02-26 16:08:15,490][INFO ][plugins                  ] [Damballah] modules [lang-groovy, lang-expression], plugins [], sites []
+[2016-02-26 16:08:15,510][INFO ][env                      ] [Damballah] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [167.8gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-02-26 16:08:15,510][INFO ][env                      ] [Damballah] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-02-26 16:08:17,207][INFO ][node                     ] [Damballah] initialized
+[2016-02-26 16:08:17,207][INFO ][node                     ] [Damballah] starting ...
+[2016-02-26 16:08:17,275][INFO ][transport                ] [Damballah] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}, {[fe80::1]:9300}
+[2016-02-26 16:08:17,285][INFO ][discovery                ] [Damballah] elasticsearch/lk4rYDgJTzmBRnUkBmE-1Q
+[2016-02-26 16:08:20,322][INFO ][cluster.service          ] [Damballah] new_master {Damballah}{lk4rYDgJTzmBRnUkBmE-1Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-02-26 16:08:20,332][INFO ][http                     ] [Damballah] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}, {[fe80::1]:9200}
+[2016-02-26 16:08:20,332][INFO ][node                     ] [Damballah] started
+[2016-02-26 16:08:20,406][INFO ][gateway                  ] [Damballah] recovered [1] indices into cluster_state
+[2016-02-26 16:08:20,722][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][3]] ...]).
+[2016-02-26 16:08:32,699][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:08:32,873][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 16:08:32,879][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 16:14:51,790][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:14:51,891][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 16:17:00,567][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 16:33:10,886][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:33:11,000][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 16:33:11,007][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 16:45:05,269][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:45:05,424][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 16:45:05,431][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 16:52:24,260][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:52:24,357][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 16:52:24,365][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 16:52:47,765][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:52:47,860][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 16:52:47,866][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 16:53:11,698][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:53:11,809][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 16:53:11,816][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 16:55:02,976][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:55:03,105][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][0], [test-index][4], [test-index][0]] ...]).
+[2016-02-26 16:55:03,116][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 16:55:52,845][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:55:52,940][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 16:55:52,946][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 16:56:37,822][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:56:37,909][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 16:56:37,917][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 16:57:18,351][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:57:18,445][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 16:57:18,449][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 16:57:44,203][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 16:57:44,315][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 16:57:44,321][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:19:38,037][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:19:38,142][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:19:38,148][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:25:39,874][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:25:39,965][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:25:39,972][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:29:10,872][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:29:11,007][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:29:11,016][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:31:27,071][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:31:27,164][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 17:31:27,174][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:33:42,193][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:33:42,291][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:33:42,297][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:36:06,968][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:36:07,061][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:36:07,068][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:37:33,761][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:37:33,851][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:37:33,856][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:38:01,343][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:38:01,426][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:38:01,431][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:40:07,235][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:40:07,319][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:40:07,326][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:44:24,356][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:44:24,447][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 17:44:44,345][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:47:57,587][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:47:57,685][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 17:47:57,693][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:48:43,496][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:48:43,600][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:48:43,607][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:52:42,686][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:52:42,782][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:52:42,787][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:53:18,869][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:53:18,941][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:53:18,947][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:54:53,371][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:54:53,457][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:54:53,462][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:56:57,409][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:56:57,483][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:56:57,490][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:58:28,754][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:58:28,824][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:58:28,830][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 17:58:57,629][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 17:58:57,696][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 17:58:57,702][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:04:42,704][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:04:42,795][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:04:42,801][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:08:15,609][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:08:15,701][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:08:15,708][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:09:22,070][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:09:22,160][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 18:09:22,167][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:12:21,706][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:12:21,791][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:12:21,797][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:13:23,444][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:13:23,521][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:13:23,526][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:15:01,719][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:15:01,797][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:15:01,802][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:15:24,026][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:15:24,095][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:15:24,100][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:16:40,897][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:16:40,965][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 18:16:40,974][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:17:36,927][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:17:36,996][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:17:37,003][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:19:16,735][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:19:16,801][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:19:16,808][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:20:02,114][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:20:02,195][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:20:02,201][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:20:20,926][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:20:21,027][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:20:21,032][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:20:58,581][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:20:58,649][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:20:58,655][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:21:54,726][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:21:54,803][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:21:54,811][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:22:59,337][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:22:59,403][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:22:59,408][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:27:17,159][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:27:17,225][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:27:17,230][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:29:15,934][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:29:16,000][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:29:16,008][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:31:08,178][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:31:08,249][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:31:08,255][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:33:26,236][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:33:26,315][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:33:26,320][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:34:08,674][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:34:08,744][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 18:34:08,753][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:34:41,606][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:34:41,686][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 18:34:41,693][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:37:31,572][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:37:31,646][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:37:31,652][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:40:51,454][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:40:51,525][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:40:51,530][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:43:07,447][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:43:07,553][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:43:07,559][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:44:18,034][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:44:18,098][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:44:18,103][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:45:08,078][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:45:08,144][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:45:08,152][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:45:21,078][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:45:21,148][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:45:21,153][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:45:48,845][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:45:48,913][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:45:48,918][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:46:18,369][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:46:18,423][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:46:18,427][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:46:50,432][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:46:50,512][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:46:50,519][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:47:20,451][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:47:20,584][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:47:20,594][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:48:38,760][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:48:38,826][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:48:38,834][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:50:00,416][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:50:00,482][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:50:00,488][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:50:58,379][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:50:58,444][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:50:58,449][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:51:56,316][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:51:56,379][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:51:56,385][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:52:57,038][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:52:57,116][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 18:52:57,125][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:53:29,620][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:53:29,691][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:53:29,696][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 18:54:16,674][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:54:16,744][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4]] ...]).
+[2016-02-26 18:54:16,752][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:56:03,910][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 18:56:03,977][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 18:56:03,982][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 19:02:53,480][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 19:02:53,546][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 19:02:53,553][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
+[2016-02-26 19:05:48,721][INFO ][cluster.metadata         ] [Damballah] [test-index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-02-26 19:05:48,802][INFO ][cluster.metadata         ] [Damballah] [test-index] create_mapping [test-type]
+[2016-02-26 19:05:48,807][INFO ][cluster.routing.allocation] [Damballah] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][4], [test-index][4]] ...]).
