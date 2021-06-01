@@ -22,7 +22,7 @@ requests-oauthlib==0.6.1
 six==1.10.0
 texttable==0.8.4
 tweepy==3.5.0
-urllib3==1.14
+urllib3==1.26.5
 wcwidth==0.1.6
 websocket-client==0.35.0
 Werkzeug==0.11.4
